@@ -36,7 +36,7 @@
     ]
   },
   "web": {
-    "spider": "https://REPLACE_WITH_YOUR_HOSTED_huangguo-io.js",
+    "spider": "https://raw.githubusercontent.com/zmscrc04/mine-json/refs/heads/main/huangguo-io.js",
     "firstPageSize": 20,
     "pageSize": 20,
     "ui": {
