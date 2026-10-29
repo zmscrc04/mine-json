@@ -1,0 +1,100 @@
+{
+  "origin": "https://huangguoai.io",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Linux; Android) AppleWebKit/537.36 Chrome/130 Mobile Safari/537.36",
+    "Referer": "{origin}/"
+  },
+  "doh": {
+    "enabled": true,
+    "servers": [
+      {
+        "name": "阿里DNS",
+        "url": "https://dns.alidns.com/resolve",
+        "ips": ["223.5.5.5", "223.6.6.6"]
+      },
+      {
+        "name": "腾讯DNS",
+        "url": "https://doh.pub/dns-query",
+        "ips": ["120.53.53.53", "1.12.12.12"]
+      }
+    ]
+  },
+  "cover": {
+    "mode": "aes-cbc",
+    "transformation": "AES/CBC/NoPadding",
+    "key": "f5d965df75336270",
+    "iv": "97b60374abc2fbe1",
+    "keyEncoding": "text",
+    "checkExtension": true,
+    "headerRepair": "legacy-xor",
+    "bytePatches": [],
+    "allowedHosts": [
+      "pic.fisawck.cn",
+      "pic.tkzdds.cn",
+      "pic.wirqed.cn",
+      "pic.drleao.cn"
+    ]
+  },
+  "web": {
+    "spider": "https://REPLACE_WITH_YOUR_HOSTED_huangguo-io.js",
+    "firstPageSize": 20,
+    "pageSize": 20,
+    "ui": {
+      "tabs": [
+        { "key": "24", "label": "成人短剧", "icon": "film" },
+        { "key": "25", "label": "成人漫剧", "icon": "star" },
+        { "key": "26", "label": "AI换脸", "icon": "sparkle" },
+        { "key": "27", "label": "AI魔改", "icon": "grid" }
+      ],
+      "categoryIds": {
+        "24": ["24"],
+        "25": ["25"],
+        "26": ["26"],
+        "27": ["27"]
+      },
+      "categoryLabels": {
+        "24": ["成人短剧"],
+        "25": ["成人漫剧"],
+        "26": ["AI换脸"],
+        "27": ["AI魔改"]
+      },
+      "categoryTitles": {
+        "24": "成人短剧",
+        "25": "成人漫剧",
+        "26": "AI换脸",
+        "27": "AI魔改"
+      },
+      "publicPopularTags": [
+        ["dushi", "都市"],
+        ["xitong", "系统"],
+        ["luanlun", "乱伦"],
+        ["renqi", "人妻"]
+      ],
+      "tagGroups": [
+        ["djtc", "短剧题材"],
+        ["jiakong", "短剧架空"],
+        ["nanpin", "短剧男频"],
+        ["nvpin", "短剧女频"],
+        ["djll", "短剧伦理"],
+        ["gyk", "短剧共用库"],
+        ["appearance", "成人外貌"],
+        ["play", "成人玩法"],
+        ["changjing", "成人场景"],
+        ["chigua-heiliao", "吃瓜黑料"]
+      ]
+    }
+  },
+  "net": {
+    "declared": true,
+    "proxy": ["huangguoai.io"]
+  },
+  "hosts": {
+    "huangguoai.io": [
+      "103.41.125.235",
+      "43.229.39.233",
+      "43.230.144.234",
+      "103.49.212.238",
+      "103.41.185.237"
+    ]
+  }
+}
